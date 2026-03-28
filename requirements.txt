@@ -1,0 +1,18 @@
+# TCI Toolkit — Python dependencies
+# Core library uses only the standard library.
+# Optional dependencies for enhanced functionality:
+
+# For Task 2 persona consistency (sentence embeddings — recommended for production)
+# sentence-transformers>=2.2.0
+
+# For running the LLM example with a real Hugging Face model
+# transformers>=4.30.0
+# torch>=2.0.0
+
+# For running the OpenAI-compatible example
+# openai>=1.0.0
+
+# For development and testing
+pytest>=7.0.0
+black>=23.0.0
+flake8>=6.0.0
