@@ -1,3 +1,4 @@
+
 <div align="center">
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=40&duration=2500&pause=500&color=D4AF37&center=true&vCenter=true&multiline=true&repeat=true&width=900&height=140&lines=TCI+TOOLKIT;Thermodynamic+Cognition+Index;Surplus.+Measured.+Controlled." alt="Typing SVG" />
@@ -292,6 +293,7 @@ Apache 2.0 — use freely, keep the attribution.
 <a href="https://bapxai.com"><img src="https://img.shields.io/badge/🌐_Live_Demo-bapxai.com-D4AF37?style=for-the-badge" alt="Demo"/></a>
 <a href="https://zenodo.org/records/19263435"><img src="https://img.shields.io/badge/📄_Paper-Zenodo-8b5cf6?style=for-the-badge" alt="Paper"/></a>
 <a href="https://x.com/BAPxAI"><img src="https://img.shields.io/badge/🐦_Follow-@BAPxAI-1da1f2?style=for-the-badge" alt="Twitter"/></a>
+<a href="https://buymeacoffee.com/permamind"><img src="https://img.shields.io/badge/☕_Buy_Me_a_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me a Coffee"/></a>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,16,20&height=100&section=footer&text=Surplus+is+measurable&fontSize=24&fontColor=D4AF37&animation=twinkling" alt="Footer Wave"/>
 
