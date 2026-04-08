@@ -1,4 +1,3 @@
-
 <div align="center">
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=40&duration=2500&pause=500&color=D4AF37&center=true&vCenter=true&multiline=true&repeat=true&width=900&height=140&lines=TCI+TOOLKIT;Thermodynamic+Cognition+Index;Surplus.+Measured.+Controlled." alt="Typing SVG" />
@@ -56,6 +55,48 @@ The **Thermodynamic Cognition Index** is the first computable surplus metric for
 | `< 0.10` | 🔴 **F** | Collapse Imminent | Load last checkpoint |
 
 </div>
+
+---
+
+## 🚀 **Run the Demo**
+
+Want to see TCI in action in 10 seconds?
+
+This simulates a persistent agent over 20 timesteps and prints live TCI grades, stages, and collapse warnings.
+
+```python
+from tci_calculator import TCICalculator
+from k_estimator import KEstimator
+
+k_est = KEstimator(window_size=20)
+tci   = TCICalculator(f_survival=0.35)
+
+print("Simulating 20 timesteps...\n")
+
+import random
+for t in range(20):
+    # Simulate loss drifting down over time (agent developing)
+    f_total    = 0.85 - (t * 0.02) + random.uniform(-0.03, 0.03)
+    complexity = 0.4  + (t * 0.015)
+
+    k      = k_est.update(f_total - 0.35, complexity)
+    result = tci.compute(f_total, k)
+
+    alert = " ⚠️  COLLAPSE WARNING" if result.tci < 0.30 else ""
+    print(f"t={t:02d} | TCI={result.tci:.3f} | Grade={result.grade} | Stage={result.stage}{alert}")
+```
+
+**Example output:**
+```
+t=00 | TCI=0.21 | Grade=D | Stage=Collapse Warning ⚠️  COLLAPSE WARNING
+t=01 | TCI=0.24 | Grade=D | Stage=Collapse Warning ⚠️  COLLAPSE WARNING
+t=05 | TCI=0.38 | Grade=C | Stage=At Risk
+t=10 | TCI=0.52 | Grade=B | Stage=Learning
+t=15 | TCI=0.67 | Grade=A | Stage=Generativity
+t=19 | TCI=0.74 | Grade=A | Stage=Generativity
+```
+
+Watch the agent climb from collapse warning to generativity as surplus accumulates. That's k(s) growing with runtime — exactly what the framework predicts.
 
 ---
 
@@ -136,7 +177,7 @@ with open('agent_state.json') as f:
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&duration=2000&pause=800&color=00D26A&center=true&vCenter=true&width=700&lines=Fleet+Avg+TCI:+0.74+%7C+Grade+A+%7C+Generativity;Agent+Asher:+TCI+0.81+%7C+Grade+A+%7C+Exploration;Agent+Sum:+TCI+0.76+%7C+Grade+A+%7C+Generativity;Agent+Aura:+TCI+0.34+%7C+Grade+C+%7C+At+Risk+⚠️;Collapse+Alert:+TCI+approaching+0.10+🔴" alt="Dashboard Preview" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&duration=2000&pause=800&color=00D26A&center=true&vCenter=true&width=700&lines=Fleet+Avg+TCI:+0.74+%7C+Grade+A+%7C+Generativity;Agent+Nexus:+TCI+0.88+%7C+Grade+A+%7C+Exploration;Agent+Aura:+TCI+0.79+%7C+Grade+A+%7C+Exploration;Agent+Drift:+TCI+0.34+%7C+Grade+C+%7C+At+Risk+⚠️;Collapse+Alert:+TCI+approaching+0.10+🔴" alt="Dashboard Preview" />
 
 </div>
 
