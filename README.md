@@ -26,7 +26,6 @@
 <img src="https://img.shields.io/badge/License-Apache_2.0-8b5cf6?style=for-the-badge" alt="License"/>
 <img src="https://img.shields.io/badge/Python-3.8+-3776ab?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
 <img src="https://img.shields.io/badge/JavaScript-ES6+-f7df1e?style=for-the-badge&logo=javascript&logoColor=black" alt="JS"/>
-<img src="https://img.shields.io/badge/IBM_Quantum-Validated-6929C4?style=for-the-badge&logo=ibm&logoColor=white" alt="Quantum"/>
 
 <br/><br/>
 
@@ -230,18 +229,7 @@ print(result.passed_all)   # True = agent above survival threshold
 
 ---
 
-## ⚛️ Quantum Validation
 
-TCI's substrate-independence hypothesis validated on real IBM quantum hardware.
-
-| Run | Backend | Job ID | Entanglement |
-|:---|:---|:---|:---:|
-| Feb 5, 2026 | ibm_fez (156 qubits) | `d625ccao8gvs73f1ot90` | **0.8770** |
-| Feb 12, 2026 | ibm_marrakesh (156 qubits) | `d676238qbmes739evr60` | **0.9688** |
-
-Both job IDs publicly verifiable on IBM Quantum platform.
-
----
 
 ## 🔍 Validation Request
 
@@ -341,4 +329,5 @@ Apache 2.0 — use freely, keep the attribution.
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&text=Surplus+is+measurable&fontSize=28&fontColor=D4AF37&animation=twinkling" alt="Footer Wave"/>
 
+</div>
 </div>
