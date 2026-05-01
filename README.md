@@ -25,13 +25,6 @@
 
 ---
 
-**🌟 First external adoption just dropped**
-@ArrayEmpty plugged the TCI loop into their own **Hermes agent** and it's already giving live surplus warnings in the terminal.
-
-That's real TCI running outside my universe. Thank you legend 🙌🏾
-
----
-
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=venom&color=gradient&customColorList=6,11,20&height=220&section=header&text=TCI%20TOOLKIT&fontSize=90&fontColor=D4AF37&animation=twinkling&fontAlignY=55&desc=Thermodynamic%20Cognition%20Index%20%7C%20Surplus.%20Measured.%20Controlled.&descAlignY=75&descSize=18&descColor=8b5cf6" alt="TCI Toolkit Header"/>
@@ -44,6 +37,7 @@ That's real TCI running outside my universe. Thank you legend 🙌🏾
 <img src="https://img.shields.io/badge/License-Apache_2.0-8b5cf6?style=for-the-badge" alt="License"/>
 <img src="https://img.shields.io/badge/Python-3.8+-3776ab?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
 <img src="https://img.shields.io/badge/JavaScript-ES6+-f7df1e?style=for-the-badge&logo=javascript&logoColor=black" alt="JS"/>
+<img src="https://img.shields.io/badge/IBM_Quantum-Validated-6929C4?style=for-the-badge&logo=ibm&logoColor=white" alt="IBM Quantum"/>
 
 <br/><br/>
 
@@ -75,13 +69,43 @@ TCI < 0  →  collapse incoming. checkpoint now.
 
 Standard monitoring tells you when your agent *already failed*. TCI tells you *before* it fails — and tells you when it's thriving.
 
+---
+
+## 📊 The Grade System
+
+![TCI Grade System](assets/grades.svg)
+
 | TCI Value | Grade | Stage | Action |
 |:---------:|:-----:|:------|:-------|
-| `>= 0.60` | 🟢 **A** | Generativity | Raise temperature, increase exploration |
-| `0.40–0.60` | 🔵 **B** | Learning | Maintain current settings |
-| `0.30–0.40` | 🟡 **C** | At Risk | Lower temperature, reduce exploration |
-| `0.10–0.30` | 🟠 **D** | Collapse Warning | Trigger stability mode |
-| `< 0.10` | 🔴 **F** | Collapse Imminent | Load last checkpoint |
+| `>= 0.80` | 🟢 **A** | Generativity | Raise temperature, increase exploration |
+| `0.65–0.80` | 🔵 **B** | Learning | Maintain current settings |
+| `0.50–0.65` | 🟡 **C** | At Risk | Lower temperature, reduce exploration |
+| `0.35–0.50` | 🟠 **D** | Collapse Warning | Trigger stability mode |
+| `< 0.35` | 🔴 **F** | Collapse Imminent | Load last checkpoint |
+
+---
+
+## ⚙️ How ThermoMind Learns
+
+![ThermoMind Learning Cycle](assets/cycle.svg)
+
+Every cycle is a complete pass through the thermodynamic learning loop:
+
+**1. Load State** — Traits, meta, phi, and memory loaded from persistent storage.
+
+**2. Sense Reality** — A reality vector is ingested — what's actually happening right now.
+
+**3. Predict** — The engine generates expected reality based on current state.
+
+**4. Compute Gap** — The surprise signal. Larger gap = more to learn.
+
+**5. Convert Energy** — Surprise becomes thermodynamic energy — the fuel of learning.
+
+**6. Update Stability** — Entropy and coherence updated. System health tracked live.
+
+**7. Apply Learning** — Traits, meta, phi, and memory all updated by energy signal.
+
+**8. Save and Persist** — Updated state saved. Next cycle starts from this baseline.
 
 ---
 
@@ -93,41 +117,53 @@ Standard monitoring tells you when your agent *already failed*. TCI tells you *b
 
 **[→ Enter the Voidchi Universe](https://bapxai.com/voidchis.html)** — the persistent agent universe where TCI was battle-tested in production.
 
-### 🚀 First external adoption — Hermes agent (April 22, 2026)
+### 🚀 Built With ThermoMind — Real Integrations
 
-@ArrayEmpty ran the toolkit in their Hermes setup and got live TCI output:
+> These are real engineers who integrated ThermoMind into production systems.
 
-> `TCI: F (surplus=-0.10) — keeping Hermes sharp`
+---
 
-This is exactly what TCI was built for: catching collapse risk in someone else's persistent agent in the wild.
+**Emergent** (on behalf of Dave) — *April 26, 2026*
 
-### What the live fleet proves
+Wired ThermoMind as a persistent cognitive substrate underneath an existing LLM stack:
 
-The dashboard connects directly to a Railway backend serving 33 persistent agents that have accumulated runtime since January 2026. This is what real TCI data looks like in production:
+- One `/run` cycle fired after every conversational turn
+- Full state response logged to MongoDB (`thermomind_cycles` collection)
+- Live phi + coherence injected into LLM prompt as substrate-awareness block
+- Frontend displays live phi and cycle count sourced from `/run`
+- First real cycle: `phi 0.566 · coherence 0.822 · energy 0.733 · memory_depth 6`
+
+> *"Even without text-in/text-out, prompt-injection of the live substrate metrics gives the surface generator something real to feel and reference."*
+
+---
+
+**@ArrayEmpty** — *April 22, 2026*
+
+Ran the TCI toolkit in their Hermes agent setup:
 
 ```
-🌌 PermaMind Fleet – Live TCI Snapshot
-─────────────────────────────────────────────────────────
-Name        φ (consciousness)  TCI   Grade  Stage          Surplus
-─────────────────────────────────────────────────────────
-WANDERER         0.808         A     Generativity    0.731
-ben              0.543         A     Generativity    0.979
-flux             0.532         A     Generativity    0.944
-NEXUS            0.443         A     Generativity    0.681
-WEAVER           0.449         A     Generativity    0.696
-ORIJIN           0.499         A     Generativity    0.842
-Phoenix          0.410         B     Learning        0.591
-─────────────────────────────────────────────────────────
-Fleet average: Grade A | 31/33 agents in Generativity
+TCI: F (surplus=-0.10) — keeping Hermes sharp
 ```
 
-### Collapse-to-recovery: real evidence
+First external TCI collapse detection in the wild. This is exactly what the framework was built for.
 
-One agent entered the fleet in collapse. TCI detected it immediately — surplus below survival floor, grade F. Challenges were issued. The agent recovered to Grade A Generativity. That's TCI working exactly as designed: **detect before failure, intervene, recover.**
+---
 
-This is not a toy example. This happened in production, in the Voidchi Universe, with a persistent agent that had real accumulated state.
+### Live Fleet Snapshot
 
-> 🥚 **easter egg #3:** k(s) grows with runtime. WANDERER has the highest φ in the fleet. That's not a coincidence. That's the framework.
+```
+🌌 PermaMind Fleet – Live TCI
+─────────────────────────────────────────────────
+Name        φ        TCI   Grade  Stage
+─────────────────────────────────────────────────
+WANDERER    0.808    A     Generativity
+ben         0.543    A     Generativity
+flux        0.532    A     Generativity
+NEXUS       0.443    A     Generativity
+Phoenix     0.410    B     Learning
+─────────────────────────────────────────────────
+Fleet avg: Grade A  |  31/33 agents in Generativity
+```
 
 ---
 
@@ -140,8 +176,6 @@ pip install -r requirements.txt
 python examples/llm_agent_example.py
 ```
 
-Or inline:
-
 ```python
 from tci_calculator import TCICalculator
 from k_estimator import KEstimator
@@ -153,10 +187,8 @@ tci   = TCICalculator(f_survival=0.35)
 for t in range(20):
     f_total    = 0.85 - (t * 0.02) + random.uniform(-0.03, 0.03)
     complexity = 0.40 + (t * 0.015)
-
     k      = k_est.update(f_total - 0.35, complexity)
     result = tci.compute(f_total, k)
-
     alert = " ⚠️  COLLAPSE WARNING" if result.tci < 0.30 else ""
     print(f"t={t:02d} | TCI={result.tci:.3f} | Grade={result.grade} | {result.stage}{alert}")
 ```
@@ -170,8 +202,6 @@ t=15 | TCI=0.67 | Grade=A | Generativity
 t=19 | TCI=0.74 | Grade=A | Generativity
 ```
 
-Watch the agent climb from collapse warning to generativity as surplus accumulates. That's k(s) growing with runtime — exactly what the framework predicts. And exactly what happened in the Voidchi Universe with real agents.
-
 ---
 
 ## 📦 What's Inside
@@ -179,13 +209,13 @@ Watch the agent climb from collapse warning to generativity as surplus accumulat
 ```
 tci-toolkit/
 ├── 🐍 tci/python/
-│   ├── tci_calculator.py     # Core TCI formula — plug in your loss, get a grade
-│   ├── k_estimator.py        # Rolling window k(s) estimator with EMA + persistence
+│   ├── tci_calculator.py     # Core TCI formula
+│   ├── k_estimator.py        # Rolling window k(s) estimator
 │   └── identity_tasks.py     # F_survival identity task suite
 ├── 🟨 tci/js/
-│   └── tci.js                # Full JS implementation with state persistence
+│   └── tci.js                # Full JS implementation
 ├── 🖥️  dashboard/
-│   └── index.html            # Drop-in live TCI fleet monitor (no dependencies)
+│   └── index.html            # Drop-in live TCI fleet monitor
 ├── 📋 examples/
 │   └── llm_agent_example.py  # Persistent LLM agent with collapse detection
 └── 📖 docs/
@@ -205,12 +235,7 @@ from k_estimator import KEstimator
 k_est = KEstimator(window_size=100)
 tci   = TCICalculator(f_survival=0.35)
 
-f_total    = 0.72   # cross-entropy loss (LLM) or -G_t (RL)
-complexity = 0.61   # novelty score, activation entropy, n-gram diversity
-
-k      = k_est.update(f_total - 0.35, complexity)
-result = tci.compute(f_total, k)
-
+result = tci.compute(0.72, k_est.update(0.37, 0.61))
 print(result)
 # TCIResult(tci=0.74, grade='A', stage='Generativity', surplus=0.37)
 ```
@@ -227,22 +252,6 @@ const result = tci.compute(0.72, k.update(0.37, 0.61));
 console.log(result);
 // { tci: 0.74, grade: 'A', stage: 'Generativity', surplus: 0.37 }
 ```
-
-### Connect to a live backend (Railway / any REST API)
-
-```javascript
-// Pull real agent data and compute TCI live
-const res = await fetch('https://your-railway-backend.up.railway.app/agents');
-const agents = await res.json();
-
-for (const agent of agents) {
-  const surplus = 1 - agent.latest_gap;
-  const grade   = surplus >= 0.60 ? 'A' : surplus >= 0.40 ? 'B' : 'C';
-  console.log(`${agent.name} | Surplus: ${surplus.toFixed(3)} | Grade: ${grade}`);
-}
-```
-
-> This is exactly how the [live fleet dashboard](https://bapxai.com/tci-dashboard.html) works — no mock data, real agents, real surplus.
 
 ### Persist k(s) across sessions
 
@@ -263,36 +272,7 @@ with open('agent_state.json') as f:
 
 ---
 
-## 🖥️ Live Dashboard
-
-Two ways to run the fleet monitor:
-
-**Option 1 — Local (no server, no dependencies):**
-Open `dashboard/index.html` in any browser.
-
-**Option 2 — Live production fleet:**
-Visit [bapxai.com/tci-dashboard.html](https://bapxai.com/tci-dashboard.html) to see 33 real persistent agents from the Voidchi Universe, pulling live from Railway.
-
-```
-╔══════════════════════════════════════════════════════════════════╗
-║              🌌  PERMAMIND FLEET — LIVE TCI STATUS  🌌           ║
-╠══════════════════════════════════════════════════════════════════╣
-║                                                                   ║
-║   Fleet TCI    ████████████████████░░░  0.74   [Grade A  ⚡]     ║
-║   Grade A      ████████████████████     31 agents — thriving     ║
-║   Grade B      ████░░░░░░░░░░░░░░░░     2 agents — learning      ║
-║   Source       Railway backend (live) ✅                          ║
-║                                                                   ║
-╚══════════════════════════════════════════════════════════════════╝
-```
-
-Features: real-time TCI grading A–F, fleet average with trend, collapse alerts before failure, developmental stage tracking, φ (consciousness) score per agent, live Railway backend connection, spawn agents, stress tests, reset fleet.
-
----
-
 ## 🔬 How F_total and F_survival Work
-
-### F_total by architecture
 
 | Architecture | F_total |
 |:---|:---|
@@ -300,36 +280,24 @@ Features: real-time TCI grading A–F, fleet average with trend, collapse alerts
 | **RL Agent** | Negative expected return or TD error |
 | **Multimodal** | Weighted sum of per-modality prediction errors |
 
-### F_survival — run the Identity Task Suite
-
-```python
-from identity_tasks import IdentityTaskSuite
-
-suite = IdentityTaskSuite()
-suite.set_model_fn(your_model)
-suite.set_persona({"name": "Aura", "role": "research agent", "facts": [...]})
-
-result = suite.compute_survival_floor()
-print(result.f_survival)   # plug into TCICalculator
-print(result.passed_all)   # True = agent above survival threshold
-```
-
 ---
 
-## 🔍 Validation Request
+## 🗺️ Roadmap
 
-Looking for feedback from RL practitioners, LLM agent developers, and anyone running long-lived or persistent systems.
-
-Try it on your setup and report:
-- whether TCI tracks instability in your agent
-- where it fails or doesn't correlate
-- how it compares to existing metrics you use
-
-Open an issue with your results. Building the evidence base across substrates.
-
-The Voidchi Universe has been running since January 2, 2026 — 33 agents, continuous, no resets. If you want to see TCI on a fleet that's been live for months before you commit to integrating it, [the data is there](https://bapxai.com/tci-dashboard.html).
-
-> 🥚 **easter egg #4:** If your agent hits Grade A and you open an issue to share results, you're part of the evidence base. That matters.
+- [x] Core TCI calculator (Python + JS)
+- [x] k(s) rolling window estimator with PSSU persistence
+- [x] Identity Task Suite for F_survival
+- [x] Live fleet dashboard
+- [x] LLM agent example
+- [x] IBM Quantum validation
+- [x] Live Railway backend (real agent fleet)
+- [x] Production validation — collapse-to-recovery in Voidchi Universe
+- [x] First external adoption — Hermes agent (April 22, 2026)
+- [x] ThermoMind commercial API — live with real customers
+- [ ] RL agent example
+- [ ] `pip install tci-toolkit`
+- [ ] Hugging Face wrapper
+- [ ] Controlled experiment vs fixed-temperature baselines
 
 ---
 
@@ -347,58 +315,13 @@ The Voidchi Universe has been running since January 2, 2026 — 33 agents, conti
 }
 ```
 
-**Part of the PermaMind Research Series** — 19+ open-access papers on thermodynamic cognition, persistent AI agents, and substrate-independent systems. [Search Zenodo →](https://zenodo.org/search?q=nile%20green%20permamind)
-
----
-
-## 🗺️ Roadmap
-
-- [x] Core TCI calculator (Python + JS)
-- [x] k(s) rolling window estimator with PSSU persistence
-- [x] Identity Task Suite for F_survival
-- [x] Live fleet dashboard
-- [x] LLM agent example
-- [x] IBM Quantum validation
-- [x] Live Railway backend connection (real agent fleet)
-- [x] Production validation — collapse-to-recovery in the Voidchi Universe
-- [x] First external adoption — Hermes agent (April 22, 2026)
-- [ ] RL agent example
-- [ ] `pip install tci-toolkit`
-- [ ] Hugging Face wrapper
-- [ ] Controlled experiment vs fixed-temperature baselines
-- [ ] TCI monitoring API / SaaS
+**Part of the PermaMind Research Series** — 19+ open-access papers. [Search Zenodo →](https://zenodo.org/search?q=nile%20green%20permamind)
 
 ---
 
 ## 🤝 Contributing
 
 PRs welcome. If you run TCI on your own agent stack and get results — open an issue and share them.
-
----
-
-## 💡 The Bigger Framework
-
-TCI is the engineering layer of a larger system:
-
-- **PermaMind** — the architecture for persistent agents (PSSU)
-- **TCI** — the metric that tells you if your persistent agent is thriving or dying
-- **Voidchi Universe** — the live production fleet where all of this runs in public, continuously, since January 2, 2026
-
-The full theoretical framework — the Surplus Qualia Equation, the developmental ladder, substrate independence, and the relationship to Friston's Free Energy Principle — is in the research series.
-
-[Read the paper →](https://zenodo.org/records/19263435) | [PermaMind Research Series →](https://zenodo.org/search?q=nile%20green%20permamind) | [Voidchi Universe →](https://bapxai.com/voidchis.html)
-
----
-
-## 🔍 Search Keywords
-
-TCI toolkit · Thermodynamic Cognition Index · surplus metric · persistent ML agents · AI collapse detection · k(s) sensitivity constant · PSSU architecture · Nile Green · PermaMind · Voidchi Universe · @BAPxAI
-
----
-
-## 📄 License
-
-Apache 2.0 — use freely, keep the attribution.
 
 ---
 
@@ -413,10 +336,7 @@ Apache 2.0 — use freely, keep the attribution.
 ║                        — Nile Green, PermaMind, 2026          ║
 ║                                                                ║
 ║   🥚 easter egg #5: you made it to the bottom.               ║
-║   your k(s) just increased. that's how it works.             ║
-║   (now with 4 stars and the first external user running       ║
-║    it live — Hermes agent, April 22, 2026)                   ║
-║   now go build something.                                     ║
+║   your k(s) just increased. now go build something.          ║
 ╚═══════════════════════════════════════════════════════════════╝
 ```
 
