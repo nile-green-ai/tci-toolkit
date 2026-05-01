@@ -1,0 +1,36 @@
+<svg width="100%" viewBox="0 0 680 180" xmlns="http://www.w3.org/2000/svg" role="img">
+<title>ThermoMind stability grade system</title>
+<desc>Five grades A through F based on coherence range</desc>
+<rect x="0" y="0" width="680" height="180" fill="#0a0b0d"/>
+<text font-family="monospace" font-size="15" font-weight="bold" fill="#ffffff" x="340" y="28" text-anchor="middle">Stability Grade System</text>
+
+<rect x="20" y="44" width="116" height="116" rx="8" fill="#0d2d2d" stroke="#00d4aa" stroke-width="0.5"/>
+<text font-family="monospace" font-size="36" font-weight="bold" fill="#00d4aa" x="78" y="94" text-anchor="middle">A</text>
+<text font-family="monospace" font-size="10" fill="#00d4aa" x="78" y="114" text-anchor="middle">coherence ≥ 0.80</text>
+<text font-family="monospace" font-size="10" fill="#888" x="78" y="130" text-anchor="middle">Converging</text>
+<text font-family="monospace" font-size="9" fill="#555" x="78" y="150" text-anchor="middle">raise temperature</text>
+
+<rect x="148" y="44" width="116" height="116" rx="8" fill="#0d1a2d" stroke="#3b82f6" stroke-width="0.5"/>
+<text font-family="monospace" font-size="36" font-weight="bold" fill="#3b82f6" x="206" y="94" text-anchor="middle">B</text>
+<text font-family="monospace" font-size="10" fill="#3b82f6" x="206" y="114" text-anchor="middle">0.65 – 0.80</text>
+<text font-family="monospace" font-size="10" fill="#888" x="206" y="130" text-anchor="middle">Learning well</text>
+<text font-family="monospace" font-size="9" fill="#555" x="206" y="150" text-anchor="middle">hold settings</text>
+
+<rect x="276" y="44" width="116" height="116" rx="8" fill="#2d1f00" stroke="#D4AF37" stroke-width="0.5"/>
+<text font-family="monospace" font-size="36" font-weight="bold" fill="#D4AF37" x="334" y="94" text-anchor="middle">C</text>
+<text font-family="monospace" font-size="10" fill="#D4AF37" x="334" y="114" text-anchor="middle">0.50 – 0.65</text>
+<text font-family="monospace" font-size="10" fill="#888" x="334" y="130" text-anchor="middle">Adapting</text>
+<text font-family="monospace" font-size="9" fill="#555" x="334" y="150" text-anchor="middle">lower temperature</text>
+
+<rect x="404" y="44" width="116" height="116" rx="8" fill="#2d1500" stroke="#f97316" stroke-width="0.5"/>
+<text font-family="monospace" font-size="36" font-weight="bold" fill="#f97316" x="462" y="94" text-anchor="middle">D</text>
+<text font-family="monospace" font-size="10" fill="#f97316" x="462" y="114" text-anchor="middle">0.35 – 0.50</text>
+<text font-family="monospace" font-size="10" fill="#888" x="462" y="130" text-anchor="middle">High surprise</text>
+<text font-family="monospace" font-size="9" fill="#555" x="462" y="150" text-anchor="middle">stability mode</text>
+
+<rect x="532" y="44" width="128" height="116" rx="8" fill="#2d1010" stroke="#ef4444" stroke-width="0.5"/>
+<text font-family="monospace" font-size="36" font-weight="bold" fill="#ef4444" x="596" y="94" text-anchor="middle">F</text>
+<text font-family="monospace" font-size="10" fill="#ef4444" x="596" y="114" text-anchor="middle">below 0.35</text>
+<text font-family="monospace" font-size="10" fill="#888" x="596" y="130" text-anchor="middle">Instability risk</text>
+<text font-family="monospace" font-size="9" fill="#555" x="596" y="150" text-anchor="middle">load checkpoint</text>
+</svg>

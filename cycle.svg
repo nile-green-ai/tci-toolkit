@@ -1,0 +1,61 @@
+<svg width="100%" viewBox="0 0 680 320" xmlns="http://www.w3.org/2000/svg" role="img">
+<title>ThermoMind learning cycle</title>
+<desc>Eight-step thermodynamic learning loop</desc>
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+<path d="M2 1L8 5L2 9" fill="none" stroke="#888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</marker>
+</defs>
+<rect x="0" y="0" width="680" height="320" fill="#0a0b0d"/>
+<text font-family="monospace" font-size="13" fill="#D4AF37" x="340" y="36" text-anchor="middle">reality → prediction → gap → energy → learning</text>
+<text font-family="monospace" font-size="15" font-weight="bold" fill="#ffffff" x="340" y="58" text-anchor="middle">The ThermoMind Learning Loop</text>
+
+<rect x="20" y="90" width="68" height="52" rx="8" fill="#1a1a2e" stroke="#444" stroke-width="0.5"/>
+<text font-family="monospace" font-size="11" fill="#aaa" x="54" y="112" text-anchor="middle">Load</text>
+<text font-family="monospace" font-size="11" fill="#aaa" x="54" y="128" text-anchor="middle">state</text>
+
+<line x1="88" y1="116" x2="102" y2="116" stroke="#555" stroke-width="1" marker-end="url(#arrow)"/>
+
+<rect x="102" y="90" width="68" height="52" rx="8" fill="#0d2d2d" stroke="#00d4aa" stroke-width="0.5"/>
+<text font-family="monospace" font-size="11" fill="#00d4aa" x="136" y="112" text-anchor="middle">Sense</text>
+<text font-family="monospace" font-size="11" fill="#00d4aa" x="136" y="128" text-anchor="middle">reality</text>
+
+<line x1="170" y1="116" x2="184" y2="116" stroke="#555" stroke-width="1" marker-end="url(#arrow)"/>
+
+<rect x="184" y="90" width="68" height="52" rx="8" fill="#1a0d2e" stroke="#8b5cf6" stroke-width="0.5"/>
+<text font-family="monospace" font-size="11" fill="#8b5cf6" x="218" y="112" text-anchor="middle">Predict</text>
+<text font-family="monospace" font-size="11" fill="#8b5cf6" x="218" y="128" text-anchor="middle">expected</text>
+
+<line x1="252" y1="116" x2="266" y2="116" stroke="#555" stroke-width="1" marker-end="url(#arrow)"/>
+
+<rect x="266" y="90" width="68" height="52" rx="8" fill="#2d1010" stroke="#ef4444" stroke-width="0.5"/>
+<text font-family="monospace" font-size="11" fill="#ef4444" x="300" y="112" text-anchor="middle">Compute</text>
+<text font-family="monospace" font-size="11" fill="#ef4444" x="300" y="128" text-anchor="middle">gap</text>
+
+<line x1="334" y1="116" x2="348" y2="116" stroke="#555" stroke-width="1" marker-end="url(#arrow)"/>
+
+<rect x="348" y="90" width="68" height="52" rx="8" fill="#2d1f00" stroke="#D4AF37" stroke-width="0.5"/>
+<text font-family="monospace" font-size="11" fill="#D4AF37" x="382" y="112" text-anchor="middle">Convert</text>
+<text font-family="monospace" font-size="11" fill="#D4AF37" x="382" y="128" text-anchor="middle">energy</text>
+
+<line x1="416" y1="116" x2="430" y2="116" stroke="#555" stroke-width="1" marker-end="url(#arrow)"/>
+
+<rect x="430" y="90" width="68" height="52" rx="8" fill="#0d1a2d" stroke="#3b82f6" stroke-width="0.5"/>
+<text font-family="monospace" font-size="11" fill="#3b82f6" x="464" y="112" text-anchor="middle">Update</text>
+<text font-family="monospace" font-size="11" fill="#3b82f6" x="464" y="128" text-anchor="middle">stability</text>
+
+<line x1="498" y1="116" x2="512" y2="116" stroke="#555" stroke-width="1" marker-end="url(#arrow)"/>
+
+<rect x="512" y="90" width="68" height="52" rx="8" fill="#1a0d2e" stroke="#8b5cf6" stroke-width="0.5"/>
+<text font-family="monospace" font-size="11" fill="#8b5cf6" x="546" y="112" text-anchor="middle">Apply</text>
+<text font-family="monospace" font-size="11" fill="#8b5cf6" x="546" y="128" text-anchor="middle">learning</text>
+
+<line x1="580" y1="116" x2="594" y2="116" stroke="#555" stroke-width="1" marker-end="url(#arrow)"/>
+
+<rect x="594" y="90" width="68" height="52" rx="8" fill="#0d2d2d" stroke="#00d4aa" stroke-width="0.5"/>
+<text font-family="monospace" font-size="11" fill="#00d4aa" x="628" y="112" text-anchor="middle">Save</text>
+<text font-family="monospace" font-size="11" fill="#00d4aa" x="628" y="128" text-anchor="middle">state</text>
+
+<path d="M628 142 L628 220 L54 220 L54 142" fill="none" stroke="#333" stroke-width="0.5" stroke-dasharray="4 3" marker-end="url(#arrow)"/>
+<text font-family="monospace" font-size="11" fill="#555" x="340" y="212" text-anchor="middle">repeats every cycle — state grows smarter</text>
+</svg>
