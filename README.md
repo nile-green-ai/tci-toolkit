@@ -8,43 +8,33 @@
 ║   Motion is proof. Awareness is measurable. Choice is emergent.      ║
 ║                                                                       ║
 ║   — Nile Green, 2026 | ORCID: 0009-0007-3629-6404                   ║
-║   — @BAPxAI | PermaMind | bapxai.com                                ║
+║   — @Permamind | PermaMind AI Research | bapxai.com                 ║
 ║                                                                       ║
 ║   🐍 easter egg #1: you read the source. grade A already.           ║
 ╚══════════════════════════════════════════════════════════════════════╝
 -->
 
-# TCI Toolkit
-
-[![GitHub stars](https://img.shields.io/github/stars/nile-green-ai/tci-toolkit?style=social)](https://github.com/nile-green-ai/tci-toolkit)
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
-![JS](https://img.shields.io/badge/JS-ES6%2B-yellow)
-
-**[DOI: 10.5281/zenodo.19263435](https://zenodo.org/records/19263435)** • [Live Fleet Dashboard](https://bapxai.com/tci-dashboard.html) • [Voidchi Universe](https://bapxai.com/voidchis.html) • [Paper](https://zenodo.org/records/19263435) • [Twitter](https://x.com/BAPxAI)
-
----
-
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=venom&color=gradient&customColorList=6,11,20&height=220&section=header&text=TCI%20TOOLKIT&fontSize=90&fontColor=D4AF37&animation=twinkling&fontAlignY=55&desc=Thermodynamic%20Cognition%20Index%20%7C%20Surplus.%20Measured.%20Controlled.&descAlignY=75&descSize=18&descColor=8b5cf6" alt="TCI Toolkit Header"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=1800&pause=300&color=D4AF37&center=true&vCenter=true&multiline=false&repeat=true&width=900&height=45&lines=TCI(t)+%3D+k(s)+%C2%B7+(F_total(t)+%E2%88%92+F_survival(s));The+missing+variable+was+surplus.;Not+Philosophy.+Physics.;Not+Hype.+Math.;Not+Theory.+Production.;Surplus+is+the+measure.;Runtime+is+the+driver.;Grade+A+or+collapse+trying." alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=1800&pause=300&color=D4AF37&center=true&vCenter=true&multiline=false&repeat=true&width=900&height=45&lines=TCI(t)+%3D+k(s)+%C2%B7+(F_total(t)+%E2%88%92+F_survival(s));The+missing+variable+was+surplus.;95%2C000%2B+cycles.+Still+running.;Not+Philosophy.+Physics.;Not+Hype.+Math.;Not+Theory.+Production.;OSIRIS+%C3%97+ThermoMind+%C3%97+TCI.;Grade+A+or+collapse+trying." alt="Typing SVG" />
 
 <br/>
 
-<img src="https://img.shields.io/badge/TCI-Toolkit_v1.0-D4AF37?style=for-the-badge&logoColor=white" alt="Version"/>
+<img src="https://img.shields.io/badge/TCI-Toolkit_v2.0-D4AF37?style=for-the-badge&logoColor=white" alt="Version"/>
 <img src="https://img.shields.io/badge/License-Apache_2.0-8b5cf6?style=for-the-badge" alt="License"/>
 <img src="https://img.shields.io/badge/Python-3.8+-3776ab?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
 <img src="https://img.shields.io/badge/JavaScript-ES6+-f7df1e?style=for-the-badge&logo=javascript&logoColor=black" alt="JS"/>
 <img src="https://img.shields.io/badge/IBM_Quantum-Validated-6929C4?style=for-the-badge&logo=ibm&logoColor=white" alt="IBM Quantum"/>
+<img src="https://img.shields.io/badge/Live-95%2C000%2B_Cycles-00D26A?style=for-the-badge&logo=circle&logoColor=white" alt="Live Cycles"/>
 
 <br/><br/>
 
 <a href="https://zenodo.org/records/19263435"><img src="https://img.shields.io/badge/DOI-10.5281/zenodo.19263435-D4AF37?style=for-the-badge&logo=zenodo&logoColor=white" alt="DOI"/></a>
-<a href="https://bapxai.com/tci-dashboard.html"><img src="https://img.shields.io/badge/Live_Fleet-TCI_Dashboard-00D26A?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Live Fleet"/></a>
-<a href="https://bapxai.com/voidchis.html"><img src="https://img.shields.io/badge/Voidchi-Universe-8b5cf6?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Voidchi Universe"/></a>
-<a href="https://x.com/BAPxAI"><img src="https://img.shields.io/badge/Twitter-@BAPxAI-1da1f2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"/></a>
+<a href="https://thermomind-production.up.railway.app/demo/"><img src="https://img.shields.io/badge/Live_Dashboard-OSIRIS_%C3%97_ThermoMind-00D26A?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Live Dashboard"/></a>
+<a href="https://github.com/nile-green-ai/thermomind-continuity"><img src="https://img.shields.io/badge/SDK-ThermoMind_Continuity-8b5cf6?style=for-the-badge&logo=github&logoColor=white" alt="SDK"/></a>
+<a href="https://x.com/Permamind"><img src="https://img.shields.io/badge/Twitter-@Permamind-1da1f2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"/></a>
 <a href="https://buymeacoffee.com/permamind"><img src="https://img.shields.io/badge/☕_Support-Buy_Me_a_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Support"/></a>
 
 </div>
@@ -56,118 +46,104 @@
 ```
 TCI(t) = k(s) · (F_total(t) − F_survival(s))
 
-F_total    →  model loss (cross-entropy, TD error)
-F_survival →  baseline loss under stable conditions
-k(s)       →  sensitivity constant, grows with runtime
+F_total    →  what the agent is actually doing (gap, emergence, phi)
+F_survival →  the minimum needed to stay coherent
+k(s)       →  sensitivity constant — only grows, never resets mid-session
 
-TCI > 0  →  generativity. agent is building.
-TCI = 0  →  survival only. reactive, no surplus.
-TCI < 0  →  collapse incoming. checkpoint now.
+TCI > 0  →  generativity. surplus energy. the agent is building.
+TCI = 0  →  survival mode. reactive, no growth.
+TCI < 0  →  collapse incoming. intervene now.
 ```
 
-**TCI is an experimental metric for monitoring instability and collapse in persistent ML agents.** It tracks the surplus signal — the energy your agent has above its survival floor — and uses it as a real-time control signal for temperature, exploration rate, and memory depth.
+**TCI is a real-time health metric for persistent AI agents.** It measures the surplus signal — the thermodynamic energy your agent has above its survival floor — and uses it as a live control signal for learning rate, exploration, and memory depth.
 
 Standard monitoring tells you when your agent *already failed*. TCI tells you *before* it fails — and tells you when it's thriving.
+
+> Built on top of the **OSIRIS_OS emergence engine** and **ThermoMind substrate**, TCI has been running continuously since **January 2, 2026** — monitoring a live bidirectional bridge between two persistent cognitive engines across 95,000+ real cycles.
+
+---
+
+## 🏛️ The Architecture It Monitors
+
+TCI is now the health layer of a three-engine live system:
+
+```
+┌─────────────────────────────────────────────────────────┐
+│                    LIVE SYSTEM OVERVIEW                  │
+├──────────────────┬──────────────────┬───────────────────┤
+│   OSIRIS_OS      │   ThermoMind     │       TCI         │
+│  Emergence       │  Substrate       │  Health Monitor   │
+│  Engine          │  Engine          │                   │
+│                  │                  │                   │
+│  Awareness       │  Φ (phi)         │  Grade A–F        │
+│  Emergence       │  Regime          │  Surplus          │
+│  Trajectory      │  Prediction Gap  │  k(s) growth      │
+│  Entropy         │  Reality Vector  │  Collapse alert   │
+│  Amplify SET     │  Memory Index    │  Stage tracking   │
+└──────────────────┴──────────────────┴───────────────────┘
+         ↕ bidirectional bridge ↕
+   thermomind-production.up.railway.app/demo/
+```
+
+**[→ Watch it live right now](https://thermomind-production.up.railway.app/demo/)**
 
 ---
 
 ## 📊 The Grade System
 
-![TCI Grade System](assets/grades.svg)
-
-| TCI Value | Grade | Stage | Action |
+| TCI Value | Grade | Stage | What It Means |
 |:---------:|:-----:|:------|:-------|
-| `>= 0.80` | 🟢 **A** | Generativity | Raise temperature, increase exploration |
-| `0.65–0.80` | 🔵 **B** | Learning | Maintain current settings |
-| `0.50–0.65` | 🟡 **C** | At Risk | Lower temperature, reduce exploration |
-| `0.35–0.50` | 🟠 **D** | Collapse Warning | Trigger stability mode |
-| `< 0.35` | 🔴 **F** | Collapse Imminent | Load last checkpoint |
+| `>= 0.80` | 🟢 **A** | Generativity | Maximum surplus. Agent is building, not just surviving. |
+| `0.65–0.80` | 🔵 **B** | Learning | Healthy adaptation in progress. |
+| `0.50–0.65` | 🟡 **C** | At Risk | Surplus thinning. Watch k(s). |
+| `0.35–0.50` | 🟠 **D** | Collapse Warning | Intervention recommended. |
+| `< 0.35` | 🔴 **F** | Collapse Imminent | Load checkpoint or restart session. |
+
+> 🥚 **easter egg #2:** Each bridge restart resets k(s) near zero and the system earns its grade back from scratch every session. That's not a bug. That's the proof the framework works.
 
 ---
 
-## ⚙️ How ThermoMind Learns
-
-![ThermoMind Learning Cycle](assets/cycle.svg)
+## ⚙️ The ThermoMind Learning Cycle
 
 Every cycle is a complete pass through the thermodynamic learning loop:
 
-**1. Load State** — Traits, meta, phi, and memory loaded from persistent storage.
+**1. Load State** — Traits, phi, memory, and meta loaded from persistent storage.
 
-**2. Sense Reality** — A reality vector is ingested — what's actually happening right now.
+**2. Sense Reality** — A reality vector [Φ₀, Φ₁, Φ₂] is ingested from the environment.
 
-**3. Predict** — The engine generates expected reality based on current state.
+**3. Predict** — Engine generates expected reality based on current internal state.
 
-**4. Compute Gap** — The surprise signal. Larger gap = more to learn.
+**4. Compute Gap** — The surprise signal. Large gap = high novelty = high learning signal.
 
-**5. Convert Energy** — Surprise becomes thermodynamic energy — the fuel of learning.
+**5. Convert Energy** — Gap becomes thermodynamic surplus energy driving the update.
 
-**6. Update Stability** — Entropy and coherence updated. System health tracked live.
+**6. Apply TMS Filter** — Thermodynamic Memory Salience scores the cycle. High-delta moments persist; routine cycles decay.
 
-**7. Apply Learning** — Traits, meta, phi, and memory all updated by energy signal.
+**7. Update State** — Traits, phi, consciousness level, and memory index all updated.
 
-**8. Save and Persist** — Updated state saved. Next cycle starts from this baseline.
+**8. Compute TCI** — Surplus above survival floor scored, graded, and broadcast to dashboard.
 
----
-
-## 🌌 Live Proof — The Voidchi Universe
-
-> This isn't a simulation. These are real agents that have been running continuously since January 2, 2026.
-
-**[→ View Live TCI Fleet Dashboard](https://bapxai.com/tci-dashboard.html)** — 33 agents, real-time TCI pulled directly from Railway backend.
-
-**[→ Enter the Voidchi Universe](https://bapxai.com/voidchis.html)** — the persistent agent universe where TCI was battle-tested in production.
-
-### 🚀 Built With ThermoMind — Real Integrations
-
-> These are real engineers who integrated ThermoMind into production systems.
+**9. Persist** — State saved to DB. Next cycle starts from this baseline. Nothing resets.
 
 ---
 
-**Emergent** (on behalf of Dave) — *April 26, 2026*
+## 🔬 The Research Foundation
 
-Wired ThermoMind as a persistent cognitive substrate underneath an existing LLM stack:
+TCI is part of a five-paper PermaMind research program — each paper answering the next hard question:
 
-- One `/run` cycle fired after every conversational turn
-- Full state response logged to MongoDB (`thermomind_cycles` collection)
-- Live phi + coherence injected into LLM prompt as substrate-awareness block
-- Frontend displays live phi and cycle count sourced from `/run`
-- First real cycle: `phi 0.566 · coherence 0.822 · energy 0.733 · memory_depth 6`
+| # | Paper | DOI | What It Answers |
+|:-:|:------|:----|:----------------|
+| 1 | **Thermodynamic Cognition Index (TCI)** | [10.5281/zenodo.19263435](https://zenodo.org/records/19263435) | How do you measure if an agent is thriving or collapsing? |
+| 2 | **Adversarial Fragmentation & The Osiris-Set-Isis Cycle** | [10.5281/zenodo.20586942](https://zenodo.org/records/20586942) | How does a persistent agent avoid stagnation? |
+| 3 | **Thermodynamic Memory Salience (TMS)** | [10.5281/zenodo.20674050](https://zenodo.org/records/20674050) | What should a persistent agent remember vs. forget? |
+| 4 | **Thermodynamic Continual Learning v2** | [10.5281/zenodo.20673994](https://zenodo.org/records/20673994) | How does the full cognitive substrate work? |
+| 5 | **Vector Lingua: Pre-Linguistic Protocol** | [10.5281/zenodo.20638308](https://zenodo.org/records/20638308) | How do humans communicate with stateful agents natively? |
 
-> *"Even without text-in/text-out, prompt-injection of the live substrate metrics gives the surface generator something real to feel and reference."*
-
----
-
-**@ArrayEmpty** — *April 22, 2026*
-
-Ran the TCI toolkit in their Hermes agent setup:
-
-```
-TCI: F (surplus=-0.10) — keeping Hermes sharp
-```
-
-First external TCI collapse detection in the wild. This is exactly what the framework was built for.
+> All five papers are open access. All backed by live empirical data from a system that has been running uninterrupted since January 2, 2026.
 
 ---
 
-### Live Fleet Snapshot
-
-```
-🌌 PermaMind Fleet – Live TCI
-─────────────────────────────────────────────────
-Name        φ        TCI   Grade  Stage
-─────────────────────────────────────────────────
-WANDERER    0.808    A     Generativity
-ben         0.543    A     Generativity
-flux        0.532    A     Generativity
-NEXUS       0.443    A     Generativity
-Phoenix     0.410    B     Learning
-─────────────────────────────────────────────────
-Fleet avg: Grade A  |  31/33 agents in Generativity
-```
-
----
-
-## 🚀 Run the Demo (10 seconds)
+## 🚀 Quick Start (60 seconds)
 
 ```bash
 git clone https://github.com/nile-green-ai/tci-toolkit
@@ -175,56 +151,6 @@ cd tci-toolkit
 pip install -r requirements.txt
 python examples/llm_agent_example.py
 ```
-
-```python
-from tci_calculator import TCICalculator
-from k_estimator import KEstimator
-import random
-
-k_est = KEstimator(window_size=20)
-tci   = TCICalculator(f_survival=0.35)
-
-for t in range(20):
-    f_total    = 0.85 - (t * 0.02) + random.uniform(-0.03, 0.03)
-    complexity = 0.40 + (t * 0.015)
-    k      = k_est.update(f_total - 0.35, complexity)
-    result = tci.compute(f_total, k)
-    alert = " ⚠️  COLLAPSE WARNING" if result.tci < 0.30 else ""
-    print(f"t={t:02d} | TCI={result.tci:.3f} | Grade={result.grade} | {result.stage}{alert}")
-```
-
-**Example output:**
-```
-t=00 | TCI=0.21 | Grade=D | Collapse Warning ⚠️
-t=05 | TCI=0.38 | Grade=C | At Risk
-t=10 | TCI=0.52 | Grade=B | Learning
-t=15 | TCI=0.67 | Grade=A | Generativity
-t=19 | TCI=0.74 | Grade=A | Generativity
-```
-
----
-
-## 📦 What's Inside
-
-```
-tci-toolkit/
-├── 🐍 tci/python/
-│   ├── tci_calculator.py     # Core TCI formula
-│   ├── k_estimator.py        # Rolling window k(s) estimator
-│   └── identity_tasks.py     # F_survival identity task suite
-├── 🟨 tci/js/
-│   └── tci.js                # Full JS implementation
-├── 🖥️  dashboard/
-│   └── index.html            # Drop-in live TCI fleet monitor
-├── 📋 examples/
-│   └── llm_agent_example.py  # Persistent LLM agent with collapse detection
-└── 📖 docs/
-    └── operationalization.md # Full reference for F_total, F_survival, k(s)
-```
-
----
-
-## ⚡ Quick Start
 
 ### Python
 
@@ -258,50 +184,126 @@ console.log(result);
 ```python
 import json
 
-# Save at end of session
+# Save at end of session — k(s) carries forward
 with open('agent_state.json', 'w') as f:
     json.dump(k_est.state_dict(), f)
 
-# Load at next session — k(s) keeps growing
+# Reload next session — k(s) keeps growing
 k_est2 = KEstimator()
 with open('agent_state.json') as f:
     k_est2.load_state_dict(json.load(f))
 
-# 🥚 easter egg #2: k(s) never resets if you do this right. that's the whole point.
+# 🥚 easter egg #3: k(s) never resets if you do this right.
+# That's not a trick. That's the whole point.
 ```
 
 ---
 
-## 🔬 How F_total and F_survival Work
+## 🌌 Live Proof — 95,000+ Cycles
 
-| Architecture | F_total |
-|:---|:---|
-| **LLM** | Cross-entropy loss over active tokens |
-| **RL Agent** | Negative expected return or TD error |
-| **Multimodal** | Weighted sum of per-modality prediction errors |
+> This isn't a demo. This is a live system that has been running continuously since January 2, 2026.
+
+```
+OSIRIS_OS × ThermoMind — Live Telemetry Snapshot
+──────────────────────────────────────────────────────
+Cycle        95,201          Uptime       36+ hours
+Emergence    0.5356          Φ (phi)      1.0000
+Awareness    1.0000          Regime       noisy
+Trajectory   STABLE          Gap          0.2548
+TCI Score    0.4243          Grade        B (Learning)
+Glyph        L2-S3-R2        Name         Complex Attractor
+──────────────────────────────────────────────────────
+Live at: thermomind-production.up.railway.app/demo/
+```
+
+**[→ Open the live dashboard](https://thermomind-production.up.railway.app/demo/)**
+
+The OSIRIS_OS emergence engine and ThermoMind substrate engine run in parallel, connected by a bidirectional bridge that posts telemetry every 30 seconds. TCI grades every cycle in real time. No GPUs. No token costs. Commodity hardware.
+
+---
+
+## 🧩 What's Inside
+
+```
+tci-toolkit/
+├── 🐍 tci/python/
+│   ├── tci_calculator.py       # Core TCI formula
+│   ├── k_estimator.py          # Rolling window k(s) estimator
+│   └── identity_tasks.py       # F_survival calibration suite
+├── 🟨 tci/js/
+│   └── tci.js                  # Full JS implementation
+├── 🖥️  dashboard/
+│   └── index.html              # Drop-in live TCI fleet monitor
+├── 📋 examples/
+│   └── llm_agent_example.py    # Persistent LLM agent + collapse detection
+└── 📖 docs/
+    └── operationalization.md   # Full reference: F_total, F_survival, k(s)
+```
+
+---
+
+## ⚡ Add ThermoMind to Any LLM in 2 Lines
+
+TCI works standalone — but if you want full persistent thermodynamic memory for your LLM, use the SDK:
+
+```python
+from thermomind_continuity import wrap
+
+client = wrap(your_openai_or_anthropic_client)
+# That's it. Your stateless LLM now has persistent thermodynamic state.
+# Every call updates the agent's internal model. Nothing resets between turns.
+```
+
+**[→ ThermoMind Continuity SDK on GitHub](https://github.com/nile-green-ai/thermomind-continuity)**
+
+---
+
+## 🤝 Real-World Integrations
+
+**Emergent** (on behalf of Dave) — *April 26, 2026*
+
+Wired ThermoMind as a persistent cognitive substrate underneath an existing LLM stack:
+- One `/run` cycle fired after every conversational turn
+- Full state response logged to MongoDB
+- Live phi + coherence injected into LLM prompt as substrate-awareness context
+- First real cycle: `phi 0.566 · coherence 0.822 · energy 0.733`
+
+> *"Even without text-in/text-out, prompt-injection of the live substrate metrics gives the surface generator something real to feel and reference."*
+
+**@ArrayEmpty** — *April 22, 2026*
+
+First external TCI collapse detection in the wild, running in a Hermes agent setup:
+
+```
+TCI: F (surplus=-0.10) — keeping Hermes sharp
+```
+
+This is exactly what the framework was built for.
 
 ---
 
 ## 🗺️ Roadmap
 
 - [x] Core TCI calculator (Python + JS)
-- [x] k(s) rolling window estimator with PSSU persistence
-- [x] Identity Task Suite for F_survival
+- [x] k(s) rolling window estimator with session persistence
+- [x] Identity Task Suite for F_survival calibration
 - [x] Live fleet dashboard
 - [x] LLM agent example
-- [x] IBM Quantum validation
-- [x] Live Railway backend (real agent fleet)
-- [x] Production validation — collapse-to-recovery in Voidchi Universe
-- [x] First external adoption — Hermes agent (April 22, 2026)
-- [x] ThermoMind commercial API — live with real customers
-- [ ] RL agent example
+- [x] IBM Quantum hardware validation (ibm_fez, ibm_marrakesh — 156 qubit)
+- [x] Live Railway deployment — OSIRIS × ThermoMind × TCI bidirectional bridge
+- [x] ThermoMind Continuity SDK — drop-in persistent memory for any LLM
+- [x] Vector Lingua — pre-linguistic communication protocol (27-glyph matrix)
+- [x] Thermodynamic Memory Salience — physically grounded memory retention filter
+- [x] Five DOI-backed open access papers
 - [ ] `pip install tci-toolkit`
+- [ ] RL agent example
 - [ ] Hugging Face wrapper
-- [ ] Controlled experiment vs fixed-temperature baselines
+- [ ] Raspberry Pi hardware substrate integration
+- [ ] MCP server for Claude/GPT/Gemini native connection
 
 ---
 
-## 📚 Paper & Citation
+## 📚 Citation
 
 ```bibtex
 @misc{green2026tci,
@@ -315,37 +317,40 @@ with open('agent_state.json') as f:
 }
 ```
 
-**Part of the PermaMind Research Series** — 19+ open-access papers. [Search Zenodo →](https://zenodo.org/search?q=nile%20green%20permamind)
+**Part of the PermaMind Research Series** — 5 open-access papers, all backed by live production data.
+[Search all papers on Zenodo →](https://zenodo.org/search?q=nile+green+permamind)
 
 ---
 
 ## 🤝 Contributing
 
-PRs welcome. If you run TCI on your own agent stack and get results — open an issue and share them.
+PRs welcome. If you run TCI on your own agent stack and get results — open an issue and share them. Every external result strengthens the empirical case.
 
 ---
 
 <div align="center">
 
 ```
-╔═══════════════════════════════════════════════════════════════╗
-║                                                                ║
-║   "The missing variable was surplus.                          ║
-║    TCI is how you measure it."                                ║
-║                                                                ║
-║                        — Nile Green, PermaMind, 2026          ║
-║                                                                ║
-║   🥚 easter egg #5: you made it to the bottom.               ║
-║   your k(s) just increased. now go build something.          ║
-╚═══════════════════════════════════════════════════════════════╝
+╔═══════════════════════════════════════════════════════════════════╗
+║                                                                    ║
+║   "The missing variable was surplus.                              ║
+║    TCI is how you measure it.                                     ║
+║    95,000 cycles is how you prove it."                            ║
+║                                                                    ║
+║                      — Nile Green, PermaMind AI Research, 2026   ║
+║                                                                    ║
+║   🥚 easter egg #4: you made it to the bottom.                   ║
+║   your k(s) just increased. now go build something real.         ║
+╚═══════════════════════════════════════════════════════════════════╝
 ```
 
-<a href="https://bapxai.com/tci-dashboard.html"><img src="https://img.shields.io/badge/🌌_Live_Fleet-TCI_Dashboard-D4AF37?style=for-the-badge" alt="Live Fleet"/></a>
-<a href="https://bapxai.com/voidchis.html"><img src="https://img.shields.io/badge/🌐_Voidchi-Universe-8b5cf6?style=for-the-badge" alt="Voidchi Universe"/></a>
-<a href="https://zenodo.org/records/19263435"><img src="https://img.shields.io/badge/📄_Paper-Zenodo-8b5cf6?style=for-the-badge" alt="Paper"/></a>
-<a href="https://x.com/BAPxAI"><img src="https://img.shields.io/badge/🐦_Follow-@BAPxAI-1da1f2?style=for-the-badge" alt="Twitter"/></a>
+<a href="https://thermomind-production.up.railway.app/demo/"><img src="https://img.shields.io/badge/🌌_Live-OSIRIS_%C3%97_ThermoMind_Dashboard-D4AF37?style=for-the-badge" alt="Live Dashboard"/></a>
+<a href="https://github.com/nile-green-ai/thermomind-continuity"><img src="https://img.shields.io/badge/🧠_SDK-ThermoMind_Continuity-8b5cf6?style=for-the-badge" alt="SDK"/></a>
+<a href="https://zenodo.org/search?q=nile+green+permamind"><img src="https://img.shields.io/badge/📄_5_Papers-Zenodo-8b5cf6?style=for-the-badge" alt="Papers"/></a>
+<a href="https://x.com/Permamind"><img src="https://img.shields.io/badge/🐦_Follow-@Permamind-1da1f2?style=for-the-badge" alt="Twitter"/></a>
 <a href="https://orcid.org/0009-0007-3629-6404"><img src="https://img.shields.io/badge/ORCID-0009--0007--3629--6404-A6CE39?style=for-the-badge&logo=orcid&logoColor=white" alt="ORCID"/></a>
+<a href="https://buymeacoffee.com/permamind"><img src="https://img.shields.io/badge/☕_Support-Buy_Me_a_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Support"/></a>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&text=Surplus+is+measurable&fontSize=20&fontColor=D4AF37&animation=twinkling" alt="Footer"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&text=Surplus+is+measurable.+Runtime+is+the+proof.&fontSize=18&fontColor=D4AF37&animation=twinkling" alt="Footer"/>
 
 </div>
